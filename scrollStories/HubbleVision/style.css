@@ -1,0 +1,231 @@
+
+body, html{
+   height: 100%;
+   padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    margin: 0px;
+}
+
+#container {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    min-width: 1024px;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    overflow:hidden;
+}
+
+.main-container {
+    width: 960px;
+    display: block;
+    margin: 130px auto 260px auto;
+}
+
+.main-container .content {
+    width:620px;
+    position:relative;
+}
+
+.centredShape {
+    display: block;
+    margin: 0 auto;
+}
+
+.centredText {
+    text-align: center;
+}
+
+strong {
+    font-weight: 900;
+}
+
+span {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #FF2B06;
+    
+}
+
+a {
+    font-weight: 300;
+    color: #010101;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-weight: 300;
+}
+
+h1 {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+header {
+    position:absolute;
+    width: 1020px;
+    top: 30px;
+    right:50%;
+    margin-right:-480px;
+    z-index: 1;
+}
+
+#container.homepage {
+    width:100%;
+    min-width: 1020px;
+    height:400%;
+    background:#222;
+}
+
+.slide {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+}
+#background {
+    z-index: 0;
+    width: 1920px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+#intro {
+    top:0px;
+    height:200%;
+    z-index: 2;
+    overflow:hidden;
+}
+
+#greeting p {
+    position: absolute;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 50px;
+}
+#message p {
+    position: absolute;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 400px;
+    margin-left: 75px;
+    margin-top:125px; 
+    line-height: 1.5em;
+}
+#conclusionBody {
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+}
+#contentTitle p {
+    position: relative;
+    font-size: 125px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 1em;
+}
+#contentText p {
+    position: relative;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+/*Parallelogram*/
+
+.parallelogram {
+    position:absolute;
+    display: block;
+    left:75%;
+    bottom:50%;
+    margin-left:-2000px;
+    margin-bottom:-200px;
+    width: 2000px;
+    height: 2000px;
+    background:#fff;
+
+        -webkit-transform: rotate(-20deg);
+           -moz-transform: rotate(-20deg);
+                -o-transform: rotate(-20deg);
+                    -ms-transform: rotate(-20deg);
+}
+
+.parallelogram h1 {
+    position:absolute;
+    bottom:0px;
+    right:50px;
+    font-size:65px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/*Reverse Parallelogram*/
+
+.Rparallelogram {
+    position:absolute;
+    display: block;
+    margin-left:-300px;
+    margin-top:-10px;
+    width: 2000px;
+    height: 2000px;
+    background:#fff;
+}
+
+.Rparallelogram h1 {
+    position:absolute;
+    bottom:0px;
+    right:50px;
+    font-size:65px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#conclusion {
+    top: 100%;
+    z-index: 5;
+    background: #fff;
+}
+#conclusion .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 1000px;
+}
+
+.menuBar {
+    margin-left: 50px;
+}
+button {
+    background-color: #000;
+    color: #fff;
+    opacity: .20;
+    height: 50px;
+    width: 100px;
+    margin: 0;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    font-size:11px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+button:hover {
+    background-color: #000000;
+    color: #fff;
+    opacity: .8;
+}
