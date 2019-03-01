@@ -114,7 +114,7 @@ $(document).ready(function (){
 		xenon: r.image().attr({
 			"width": 276, //fixed width of image
 			"height": 273, //fixed height of image
-			"src": homepageImg+"xenon.png", //source of image
+			"src": homepageImg+"Xenon.png", //source of image
 			opacity: 0,
 		}),
 		electron: r.image().attr({
